@@ -15,10 +15,11 @@ import javax.persistence.Id;
 @Entity
 public class User {
 
-  @Id
-  private Long id;
+    @Id
+    private Long id;
 
-  private String firstName;
-  private String lastName;
-  private String email;
+    private String firstName;
+    private String lastName;
+    private String email;
+
 }
