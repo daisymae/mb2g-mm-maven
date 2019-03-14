@@ -11,7 +11,7 @@
 
     <artifactId>web-app</artifactId>
 
-    <dependencies>
+   <dependencies>
         <dependency>
             <groupId>guru.springframework</groupId>
             <artifactId>jpa-entities</artifactId>
@@ -22,6 +22,6 @@
             <artifactId>web-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-     </dependencies>
+    </dependencies>
 
 </project>
