@@ -9,7 +9,7 @@ import org.mapstruct.factory.Mappers;
 public interface UserMapper {
   UserMapper INSTANCE = Mappers.getMapper(UserMapper.class);
 
-  UserCommand userToUserController(User user);
+  UserCommand userToUserCommand(User user);
 
-  User userControllerToUser(UserCommand userController);
+  User userCommandToUser(UserCommand userCommand);
 }
