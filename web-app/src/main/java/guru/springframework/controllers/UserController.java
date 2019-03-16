@@ -9,4 +9,5 @@ public class UserController {
     // fake impl
     return UserMapper.INSTANCE.userCommandToUser(command);
   }
+
 }
